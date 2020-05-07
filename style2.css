@@ -1,0 +1,62 @@
+
+ 
+    .three{
+        background-image: url("new3.PNG");
+        background-size: cover;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+       margin-top: 200px;
+      
+    }
+   
+  
+  .font{
+      font-family: serif;
+      font-size: 300%;
+      
+
+  }
+  .motto{
+      justify-items: center;
+  }
+  .button{
+      display: flex;
+      margin-left:  100px;
+      padding:15px 32px;
+      background-color: #4CAF50;
+      cursor: pointer;
+      width:250px
+
+
+  }
+  /*about*/
+  /*.dddd{
+      background-color:	#E8E8E8; opacity:0.6 ;
+      margin-top: 50px;
+      align-content: center;
+      justify-content: space-around;
+      width: 900px;
+      height: 500px;
+
+  }
+  */ 
+  .bod{
+      background-image: url("home3.PNG");
+      background-size: cover;
+      background-repeat: no-repeat;
+      color: black;
+      display: flex;
+      justify-content: space-around;
+    
+      
+  }
+  .book{
+    width:50px;
+    display: inline-block;
+    vertical-align: middle;
+    border: solid;
+    background: none;
+    
+    
+}

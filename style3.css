@@ -1,0 +1,134 @@
+/*hostel_details*/;
+
+.cent{
+    display: flex;
+justify-content: space-around;
+
+}
+.bod{
+    background-image: url("home.jpg");
+    background-repeat: no-repeat;
+   
+    background-size: cover;
+
+   
+}
+.data{
+    margin-left: 100px;
+}
+.book{
+    text-align: center;
+}
+
+
+.just{
+    flex-basis: 1000px;
+    background-color:	#E8E8E8; opacity:0.8 ; 
+    
+}
+.intro{
+    
+    text-align: center;
+}
+
+.cent{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+/*booking*/
+
+
+form {
+    color: black;
+}
+
+.back{
+        
+    background-image: url("home3.png");
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.per{
+    background-color:	#E8E8E8; opacity:0.8 ; 
+    color: black;
+
+   height: 500px;
+   width: 60%;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+
+}
+.gard{
+    background-color:	#E8E8E8; opacity:0.8; 
+    color: black;
+   
+   
+    background-size: cover;
+   height: 500px;
+   width: 500px;
+   background-position: center;
+   margin-left: 100px;
+   margin-right: 100px;
+   order:1;
+   justify-content: center;
+
+}
+.but{
+    text-align: center;
+     margin-bottom: 50px;
+ }
+ .attr{
+      background-color: #000033;
+      display: flex;
+     justify-content: space-around;
+
+
+
+ }
+ .sub{
+  
+    color: black;
+    background-color: white;opacity: 0.5;
+    
+     justify-content: space-around;
+     text-align: center;
+margin-top: 100px;
+width:400px;
+height:400px;
+
+ }
+ .logi{
+     background-color:white;
+     display: flex;
+     justify-content: space-around;
+
+ }
+ .log{
+    
+     align-content: center;
+     background-color:#669999;opacity: 0.6%;
+     margin-top: 50px;
+     align-content: center;
+     justify-content: space-around;
+     width: 600px;
+      height: 500px;
+     
+
+ }
+ .in{
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-right: 100px;
+    margin-left: 100px;
+
+ }
+ .p{
+     margin-left:120px;
+ }
+ 

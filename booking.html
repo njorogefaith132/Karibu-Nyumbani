@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    -->
+    <title>Book hostel</title>
+  
+    <link rel="stylesheet" type="text/css" href="style3.css">
+   
+    <style>
+      body{
+        background-image: url("home3.png");
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+      }
+      .pher{
+        background-color:	#E8E8E8; opacity:0.8 ; 
+    color: black;
+    margin-top:60px;
+   height: 500px;
+   width: 400px;
+   background-position: center;
+   display: flex;
+   justify-content: center;
+      }
+      .btn .button{
+    text-align: center;
+     margin-bottom: 50px;
+     margin-left: 60px;
+     padding:8px 30px;
+      background-color: #4CAF50;
+      cursor: pointer;
+      width:150px;
+      border-radius:20px; 
+
+ }
+ p{
+   text-align: center;
+ }
+    </style>
+    
+</head>
+<body class="backk">
+      <div class="pher">
+        <form action="connect.php" method="POST">
+               <p> Personal details</p><br>
+                
+                Name <input type="text" name= "Name"><br>
+                <br>
+                ID number <input type="text" name="idnumber"><br>
+                <br>
+                Number <input type="text" name="Number" min="1" max="20"><br>
+                <br>
+                Email  <input type="email" name="Email"><br>
+                <br>
+
+                Instituion <input type="text" name="Institution"><br>
+                <br>
+                Course <input type="text" name="Course"><br>
+                <br>
+                
+           
+                <div class="btn">
+               
+                <input type="submit" class="button" value="next">
+              
+              </div>
+      </div>
+    </form>
+   
+    
+
+  
+    
+</body>
+</html>
